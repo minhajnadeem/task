@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">Drink Recepies</string>
 
+    <string name="str_api_error">Something went wrong! Please try again later.</string>
     <string name="str_menu_home">Home</string>
     <string name="str_menu_favorites">Favorites</string>
+
+    <string name="str_by_name">By Name</string>
+    <string name="str_by_alphabet">By First Alphabet</string>
+
+    <string name="str_notification_default">Need some drinks open app now.</string>
+
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="default_margin">@dimen/_24sdp</dimen>
+    <dimen name="drink">@dimen/_50sdp</dimen>
+</resources>

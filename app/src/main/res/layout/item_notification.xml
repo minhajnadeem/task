@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/default_margin">
+
+    <ImageView
+        android:id="@+id/ivDrink"
+        android:layout_width="@dimen/drink"
+        android:layout_height="@dimen/drink" />
+
+    <TextView
+        android:id="@+id/tvDrinkName"
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/tvType"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_toEndOf="@id/ivDrink" />
+
+    <TextView
+        android:id="@+id/tvDrinkRecepie"
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDrinkName"
+        android:layout_alignStart="@id/tvDrinkName"
+        android:layout_alignEnd="@id/tvDrinkName"
+        android:ellipsize="end"
+        android:maxLines="2" />
+
+    <TextView
+        android:id="@+id/tvType"
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:text="Alcohol" />
+
+</RelativeLayout>
